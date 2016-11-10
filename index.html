@@ -7,6 +7,14 @@
     <title>Angular Application</title>
 </head>
 <body>
+  <div ng-app="app">
+    <div ng-controller="MainController">
+      <h2>{{contact.name}}</h2>
+      <h4>{{contact.email}}</h4>
+      <h4>{{contact.phone}}</h4>
+
+    </div>
+  </div>
 
     <script src="js/angular.js"></script>
     <script src="js/app/app.js"></script>
